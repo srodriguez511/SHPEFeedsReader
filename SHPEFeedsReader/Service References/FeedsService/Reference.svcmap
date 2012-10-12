@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6ce0539f-d28d-4487-8cdf-1d41d633776c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50404/FeedsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FeedsService.disco" MetadataType="Disco" ID="8218f8f7-11b9-40c4-a47e-9826774a3d81" SourceId="1" SourceUrl="http://localhost:50404/FeedsService.svc?disco" />
+    <MetadataFile FileName="FeedsService.xsd" MetadataType="Schema" ID="e1820edc-bce9-49e7-8f80-104da06af057" SourceId="1" SourceUrl="http://localhost:50404/FeedsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FeedsService1.xsd" MetadataType="Schema" ID="ea5de16f-13cd-466c-b3a7-7a916dec64e1" SourceId="1" SourceUrl="http://localhost:50404/FeedsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FeedsService.wsdl" MetadataType="Wsdl" ID="c573ea0f-9adc-4c98-8f02-980973faf8bb" SourceId="1" SourceUrl="http://localhost:50404/FeedsService.svc?wsdl" />
+    <MetadataFile FileName="FeedsService2.xsd" MetadataType="Schema" ID="26092ca7-51cd-4258-a930-d05d5612aa07" SourceId="1" SourceUrl="http://localhost:50404/FeedsService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

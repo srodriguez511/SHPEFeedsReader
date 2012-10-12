@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IFeedsService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_IFeedsService" contract="FeedsService.IFeedsService"
+                name="BasicHttpBinding_IFeedsService" />
+        </client>
+    </system.serviceModel>
+</configuration>
